@@ -1,4 +1,4 @@
-const val kotlinVersion = "1.5.0-M1"
+const val kotlinVersion = "1.4.31"
 const val hiltVersion = "2.33-beta"
 
 object BuildPlugins {
@@ -37,12 +37,13 @@ object Libraries {
         const val appCompat = "1.3.0-rc01"
         const val ktxActivity = "1.3.0-alpha05"
         const val ktxFragment = "1.3.2"
-        const val material = "1.4.0-alpha01"
+        const val material = "1.4.0-alpha02"
         const val constraintLayout = "2.1.0-beta01"
         const val lifecycle = "2.4.0-alpha01"
         const val hiltCompiler = "1.0.0-beta01"
         const val hilt = "1.0.0-alpha03"
         const val slidingPaneLayout = "1.2.0-alpha01"
+        const val navigation = "2.3.4"
 
         const val junit = "4.13.1"
         const val androidXJunit = "1.1.3-alpha04"
@@ -58,6 +59,8 @@ object Libraries {
     const val lifecycleViewmodel = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycle}"
     const val lifecycleLivedata = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycle}"
     const val slidingPaneLayout = "androidx.slidingpanelayout:slidingpanelayout:${Versions.slidingPaneLayout}"
+    const val navigationFragmentKtx = "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
+    const val navigationUiKtx = "androidx.navigation:navigation-ui-ktx:${Versions.navigation}"
     const val hilt = "com.google.dagger:hilt-android:$hiltVersion"
     const val hiltLifecycleViewmodel = "androidx.hilt:hilt-lifecycle-viewmodel:${Versions.hilt}"
     const val hiltAndroidCompiler = "com.google.dagger:hilt-android-compiler:$hiltVersion"

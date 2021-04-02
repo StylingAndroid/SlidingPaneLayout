@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_navigation"
+    app:startDestination="@id/itemDetailFragment">
+
+    <fragment
+        android:id="@+id/itemDetailFragment"
+        android:name="com.stylingandroid.slidingpanelayout.ItemDetailFragment"
+        android:label="fragment_item_detail"
+        tools:layout="@layout/fragment_item_detail" >
+        <argument
+            android:name="Text"
+            app:argType="string"
+            android:defaultValue="Select An Item" />
+    </fragment>
+</navigation>

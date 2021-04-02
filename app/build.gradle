@@ -40,8 +40,11 @@ dependencies {
     implementation Libraries.lifecycleViewmodel
     implementation Libraries.lifecycleLivedata
     implementation Libraries.slidingPaneLayout
+    implementation Libraries.navigationFragmentKtx
+    implementation Libraries.navigationUiKtx
     implementation Libraries.hilt
     implementation Libraries.hiltLifecycleViewmodel
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     kapt Libraries.hiltAndroidCompiler
     kapt Libraries.hiltCompiler
 }

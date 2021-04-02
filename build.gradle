@@ -15,6 +15,7 @@ buildscript {
         classpath BuildPlugins.detektPlugin
         classpath BuildPlugins.ktlintPlugin
         classpath BuildPlugins.canidropjetifierPlugin
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.30'
     }
 }
 

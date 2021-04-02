@@ -6,4 +6,5 @@
     <color name="saGreen">#1E9618</color>
     <color name="saGreenDark">#156912</color>
     <color name="saGreenLight">#4EE147</color>
+    <color name="itemBackground">#CCCCCC</color>
 </resources>
